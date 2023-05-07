@@ -1,0 +1,60 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "GetBalance",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Transfer",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/address.sol": "SimpleAddress"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/address.sol": {
+			"keccak256": "0xd42145084fb95f99598efd73b866009bd3571040963670018cabf53696cd291f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bc3355c11bb7fd05e32ed05f5194134dc572ba4fd24144854410894cf66433fd",
+				"dweb:/ipfs/Qmf8t1YeMUYvdJCDZijYG9fXEE5HokxF1GJFHrVSBcYBqL"
+			]
+		}
+	},
+	"version": 1
+}

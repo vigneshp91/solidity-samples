@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.18+commit.87f61d96"
+		"version": "0.8.19+commit.7dd6d404"
 	},
 	"language": "Solidity",
 	"output": {
@@ -13,25 +13,17 @@
 						"type": "uint8"
 					},
 					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
 						"internalType": "uint8",
-						"name": "_value",
+						"name": "age",
 						"type": "uint8"
 					}
 				],
-				"name": "addAge",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_value",
-						"type": "string"
-					}
-				],
-				"name": "addName",
+				"name": "addLearner",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -44,31 +36,24 @@
 						"type": "uint8"
 					}
 				],
-				"name": "getAge",
+				"name": "getLearner",
 				"outputs": [
 					{
-						"internalType": "uint8",
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint8",
+								"name": "age",
+								"type": "uint8"
+							}
+						],
+						"internalType": "struct SimpleStruct.Learner",
 						"name": "",
-						"type": "uint8"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint8",
-						"name": "_index",
-						"type": "uint8"
-					}
-				],
-				"name": "getName",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
+						"type": "tuple"
 					}
 				],
 				"stateMutability": "view",
@@ -88,7 +73,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/variables.sol": "TestVariables"
+			"contracts/struct.sol": "SimpleStruct"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -102,12 +87,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/variables.sol": {
-			"keccak256": "0x8a96997106309d1135f46c57723febdeb19e8f422ae9ffd311cbd16307d764f4",
+		"contracts/struct.sol": {
+			"keccak256": "0x11f5c2edad62b2ed7694f5b3c2f7dfa6bf22ef7f06c6d5b85d3f7310f30d6d14",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7b31a08ce09490bea4fef7d9c6a41acf585d2fa0184dc4c17f36a52c6f728846",
-				"dweb:/ipfs/QmWH6Nna1VMHBL1SJodJnNRx7knsVsPZqUZG3FVWLRMv5V"
+				"bzz-raw://3833579b78d934c4208c0f907896ea634faa49eb900ac4391578208bd6760041",
+				"dweb:/ipfs/QmXNqGxYEEQKebotMmcu5AeEwGRaChmbkhDZo1svBWeW9V"
 			]
 		}
 	},
