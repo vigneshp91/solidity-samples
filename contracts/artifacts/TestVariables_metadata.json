@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getName",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "s",
+						"type": "uint8"
+					}
+				],
+				"name": "setName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"custom:dev-run-script": "./scripts/deploy_with_ethers.ts",
+			"details": "Store & retrieve value in a variable",
+			"kind": "dev",
+			"methods": {},
+			"title": "TestVariables",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/variables.sol": "TestVariables"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/variables.sol": {
+			"keccak256": "0x451adb8069757c17b70bf8eb611923069735f32d8935dcd2b5f148e2bdebd397",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f3088754f17ebc36ed04746d0448b6d7df4dde51da1fbf760d504db9d438167c",
+				"dweb:/ipfs/QmQJaaBiRoms22v6cZDthz6dsTzVJRG1WMqcJpVZaLaheQ"
+			]
+		}
+	},
+	"version": 1
+}
